@@ -2,6 +2,59 @@ body {
   margin: 0;
   padding: 0;
 }
+footer {
+  border: 1px solid #f00;
+  bottom: 0;
+  height: 20%;
+  position: absolute;
+  width: 100%;
+}
 h1 {
   color: #000;
+}
+header {
+  border: 1px solid #000;
+}
+#contacto {
+  background-color: #4d848a;
+  padding-top: 50px;
+  height: 400px;
+}
+#contacto .contacto-form {
+  border: 1px solid #333;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+#contacto .contacto-inf {
+  border: 1px solid #555;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+#contacto .container {
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+}
+#header #logo {
+  border: 1px solid #aa2822;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+.menu {
+  border: 1px solid #aa2822;
+  display: inline-block;
+  margin: 0 0 0 150px;
+  padding: 0;
+  vertical-align: middle;
+  width: 30%;
+}
+.menu .lista {
+  list-style: none;
+}
+.menu .lista .tab {
+  display: inline;
+  margin: 0 0 0 10px;
 }
