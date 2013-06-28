@@ -34,16 +34,29 @@
 				</ul>
 			</div>
 			<div class="contacto-form">
-				<input class="input name" type="text" name="nombre" placeholder="Nombre" title="Escribe tu nombre"/>
-				<input class="input email" type="email" name="" placeholder ="Correo electrónico" title="Escribe tu email"/>
-				<input class="input subject" type="text" name="" placeholder="Asunto" title="Asunto"/>
-				<textarea class="message" rows="4" cols="50" placeholder="Mensaje" title="Mensaje"></textarea>
-				<input class="btn-enviar"type="submit" value="Enviar"/>	
+				<form action="" method="post" id="contactForm">
+					<p class="item-form">
+						<input class="input name required" type="text" name="nombre" placeholder="Nombre" title="Escibe tu nombre"/>	
+					</p>
+					<p class="item-form">
+						<input class="input email required" type="email" name="email" placeholder ="Correo electrónico" title="Correo electrónico"/>	
+					</p>
+					<p class="item-form">
+						<input class="input subject required" type="text" name="asunto" placeholder="Asunto" title="Asunto"/>	
+					</p>
+					<p class="item-form">
+						<textarea class="message required" name="mensaje" rows="4" cols="50" placeholder="Mensaje" title="Mensaje"></textarea>	
+					</p>					
+					<input class="btn-enviar" type="submit" value="Enviar"/>	
+				</form>
 			</div>
 		</div>
 	</div>
 	<footer>
 
 	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+	<script src="js/validarFormulario.js"></script>
 </body>
 </html>
